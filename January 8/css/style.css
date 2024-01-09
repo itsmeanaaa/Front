@@ -1,0 +1,18 @@
+body{
+  
+}
+h1{
+    border:2px;
+}
+.container{
+    font-style: italic;
+    
+}
+.box1{
+    columns:2 250px;
+}
+.box2{
+    columns:2 250px;
+    
+ }
+ 
