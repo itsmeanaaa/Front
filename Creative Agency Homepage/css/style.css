@@ -1,0 +1,49 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+html,body{
+ font-family:'Poppins', sans-serif;
+ color: black;
+}
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+p{
+    margin:20px 0 10px;
+    font-size: 1.1rem;
+}
+.logo{
+    position: absolute;
+    top:30px;
+    left: 100px;
+    font-size:2rem;
+    font-weight: 700;
+    z-index: 10;
+}
+.navigation{
+    display:none;
+}
+
+.home-img{
+    position: absolute;
+    bottom:0;
+    right:0;
+    height: 110%;
+}
+
+.home-content{
+    z-index:10;
+    position: relative;
+    max-width: 600px;
+}
+
+section{
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    padding:100px;
+}
